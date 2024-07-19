@@ -1,0 +1,95 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '34620220819@s.whatsapp.net',
+    fromMe: false,
+    id: '88601E49D61E3647F1',
+    participant: undefined
+  },
+  messageTimestamp: 1721384470,
+  pushName: 'rafa',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: 'hola', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '34620220819'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_6d123b06-6417-4084-a6e6-83082e56cc1d',
+  keyword: 'key_39b5d4b4-1235-4fb5-9cc6-e38ca085d641',
+  answer: '🙌 Hola bienvenido a este *Chatbot*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '06006fe156c2ebfb855215c40f972d32'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b9781c4c-2acb-4880-8b1b-9dcedc6fb8fe',
+  keyword: 'ans_6d123b06-6417-4084-a6e6-83082e56cc1d',
+  answer: 'te comparto los siguientes links de interes sobre el proyecto\n' +
+    '👉 *doc* para ver la documentación\n' +
+    '👉 *gracias*  para ver la lista de videos\n' +
+    '👉 *discord* unirte al discord',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '19e20473fd37de5209e3e5bfef9a3cea'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '34620220819@s.whatsapp.net',
+    fromMe: false,
+    id: 'BAE570F8294E3160',
+    participant: undefined
+  },
+  messageTimestamp: 1721384471,
+  pushName: 'rafa',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: '🙌 Hola bienvenido a este *Chatbot*' }
+  },
+  body: '🙌 Hola bienvenido a este *Chatbot*',
+  from: '34620220819'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '34620220819@s.whatsapp.net',
+    fromMe: false,
+    id: '17336598B70B48EDE4',
+    participant: undefined
+  },
+  messageTimestamp: 1721384521,
+  pushName: 'rafa',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: 'doc', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'doc',
+  from: '34620220819'
+}
